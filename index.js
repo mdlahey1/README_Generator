@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateMarkdown");
 const writeFileAsync = util.promisify(fs.writeFile);
 
-//Prompt the user questions to populate the README.md
+// TODO: Create an array of questions for user input
 function promptUser(){
     return inquirer.prompt([
         {
@@ -69,3 +69,21 @@ function promptUser(){
         }
     ]);
 }
+
+// TODO: Create a function to initialize app
+async function init() {
+    try {
+        // Ask user questions and generate responses
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        // Write new README.md to dist directory
+        await writeFileAsync('./generateREADME/README.md', generateContent);
+        console.log('✔️  Successfully wrote to README.md');
+    }   catch(err) {
+        console.log(err);
+    }
+  }
+  
+
+// Function call to initialize app
+  init();  
