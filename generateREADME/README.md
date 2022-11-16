@@ -1,9 +1,9 @@
 
-<h1 align="center">Test </h1>
+<h1 align="center">Create a README </h1>
 
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-🔍 Testing file
+🔍 Using terminal prompt the user with questions that will enable them to create a professional README file
 
 ## Table of Contents
 - [Description](#description)
@@ -15,24 +15,24 @@
 - [Questions](#questions)
 
 ## Installation
-💾 None
+💾 No installation necessary
 
 ## Usage
-💻 Testing
+💻 To create a professional README.md file for your applications
 
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Apache license. 
+This application is covered by the MIT license. 
 
 ## Contributing
-👪 None
+👪 No other contributers
 
 ## Tests
-✏️ No
+✏️ There is no test
 
 ## Questions
-✋ Contact me<br />
+✋ Contact at the below forums<br />
 <br />
 Find me on GitHub: [mdlahey1](https://github.com/mdlahey1)<br />
 <br />
